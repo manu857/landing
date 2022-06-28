@@ -1,0 +1,102 @@
+body {
+	font-family: "stick no bills", sans-serif; 
+    color:rgb(250,250,250);
+    font-size: 20px;
+    margin: 0;
+
+}/* Write some CSS below */
+
+h2, h3{
+    font-family: "Rusoso One", sans-serif;
+    color:#333652;
+    font-size: 30px;  
+
+}
+h1{
+	font-size: 50px;
+	color: rgb(250,250,250);
+	margin: 0px; 
+}
+
+a{
+	font-family: "Rusoso One", sans-serif; 
+	font-weight: 300;
+	font-size: 20px;
+
+	text-decoration: none;
+
+	transition: 0.1s;
+	color: rgb(0,0,0);
+
+
+
+}
+a:hover{
+	color:red;
+}
+
+h6{
+	font-family: "Rusoso One", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: white;
+	background-color:#90ADC6; 
+	padding: 60px;
+	margin: 0px;
+
+
+
+}
+.banner{
+	text-align: center;
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/e4a757106842361.5f99428d1aedd.jpg);
+    background-size: cover;
+    background-position: 0px -20px;
+    margin-top: 0px;
+    padding: 15px;
+    padding-top:180px;
+
+
+}
+.slogan{
+    text-align: center;
+
+}
+.song{
+    text-align: center;
+    background:#C3E0E5;
+    box-shadow:0 0 16px rgba(0,0,0,0.1);
+    border-radius: 15px;
+   
+
+}
+.footer{
+    text-align: center;
+
+}
+.button{
+    background-color:#90ADC6;
+    padding: 3px 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.colum{
+	display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 20px; 
+   
+
+
+}
+.damso{
+   
+
+}
+
+@media (max-width: 800px) {
+	.colum{
+		grid-template-columns:1fr; 
+	}
+
+}
